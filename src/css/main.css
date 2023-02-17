@@ -47,10 +47,18 @@
   margin: 0 auto;
 }
 
-#springlogo,
-#springlogo-foot {
+#bblogo,
+#bblogo-foot {
   height: 48px;
   max-width: 250px;
+  content: url(../img/openDAQ-logo-orange-blue-rgb.png);
+}
+
+html.dark-theme #bblogo,
+#bblogo-foot {
+  height: 48px;
+  max-width: 250px;
+  content: url(../img/openDAQ-logo-white.png);
 }
 
 footer #social-icons {
@@ -72,7 +80,7 @@ footer #social-icons a:focus svg .cls-1 {
   fill: var(--color-accent-3);
 }
 
-footer #spring-links a:hover {
+footer #bb-links a:hover {
   color: #086dc3;
   text-decoration: underline;
 }

@@ -27,17 +27,17 @@
   --panel-background-color: #f6f8fa;
   --panel-group-background-color: #e1e8e8;
   --panel-border-color: #eaedf0;
-  --color-accent-1: #ebf2f2;
-  --color-accent-2: #d7e7e7;
-  --color-accent-3: #6db33f;
+  --color-accent-1: #eff8ff;
+  --color-accent-2: #c5e0f5;
+  --color-accent-3: #231ba5;
   --body-font-color: #191e1e;
   --body-font-light-color: #273030;
   --body-font-dark-color: #141818;
   --link-font-color: #1565c0;
   --hover-link-font-color: #104d92;
   --scrollbar-thumb-color: silver;
-  --mark-background-color: #39ff14;
-  --selected-background-color: #191e1e;
+  --mark-background-color: #3995f5;
+  --selected-background-color: #38396c;
 
   /* Layout */
   --layout-banner-logo-offset: 18px;
