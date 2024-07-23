@@ -1,7 +1,9 @@
 <header class="header">
   <nav class="navbar">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://docs.opendaq.com">
+        {{#with @root.page.componentVersion}}
+        <a class="navbar-item" href="{{{relativize ./url}}}">
+        {{/with}}
         <img id="bblogo" class="block" src="{{{uiRootPath}}}/img/openDAQ-logo-orange-blue-rgb.png" alt="openDAQ">
       </a>
       <button class="navbar-burger" data-target="topbar-nav">
