@@ -51,6 +51,14 @@
 #springlogo-foot {
   height: 45px;
   max-width: 250px;
+  content: url(../img/openDAQ-logo-orange-blue-rgb.png);
+}
+
+html.dark-theme #springlogo,
+#springlogo-foot {
+  height: 45px;
+  max-width: 250px;
+  content: url(../img/openDAQ-logo-white.png);
 }
 
 footer #social-icons {
