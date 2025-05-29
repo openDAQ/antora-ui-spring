@@ -1,10 +1,12 @@
 <div class="nav-container"{{#if page.component}} data-component="{{page.component.name}}" data-version="{{page.version}}"{{/if}}>
-  <aside class="nav">
-    <div>
-      {{#if env.SITE_SEARCH_PROVIDER}}
-          <input id="search-input" type="text" placeholder="Search the docs">
-      {{/if}}
+  {{#if env.SITE_SEARCH_PROVIDER}}
+  <div class="navbar-item search hide-for-print">
+    <div id="search-field" class="field">
+      <input id="search-input" type="text" placeholder="Search the docs"{{#if page.home}} autofocus{{/if}}>
     </div>
+  </div>
+  {{/if}}
+  <aside class="nav">
     <div class="panels">
       {{> nav-menu}}
       {{> nav-explore}}
