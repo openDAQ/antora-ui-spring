@@ -1,12 +1,13 @@
 <div class="nav-container"{{#if page.component}} data-component="{{page.component.name}}" data-version="{{page.version}}"{{/if}}>
   <aside class="nav">
-    {{#if env.SITE_SEARCH_PROVIDER}}
-        <input id="search-input" type="text" placeholder="Search the docs">
-        <div id="search-results"></div>
-    {{/if}}
+    <div>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+          <input id="search-input" type="text" placeholder="Search the docs">
+      {{/if}}
+    </div>
     <div class="panels">
-{{> nav-menu}}
-{{> nav-explore}}
+      {{> nav-menu}}
+      {{> nav-explore}}
     </div>
   </aside>
 </div>
